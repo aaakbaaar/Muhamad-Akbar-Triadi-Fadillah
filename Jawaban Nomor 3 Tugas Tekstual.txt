@@ -1,0 +1,14 @@
+// Jawaban Nomor 3 Tugas Tekstual
+
+Pseudocode : 
+1. Fungsi fibonacci (n): 
+    - Jika n kurang dari atau sama dengan 1, kembalikan ke fungsi n
+    - Jika tidak, kembalikan hasil fibonnaci (n-1) ditambah fibonnaci (n-2).
+2. Fungsi main()
+    - Deklarasi variable n.
+    - Menampilkan pesan untuk meminta jumlah deret fibonacci
+    - Mengambil input dari pengguna dan menyimpan pada variable n
+    - Menampilkan pesan untuk menunjukan deret finbonacci hingga n
+    - Untuk setiap variable i dari 0 hingga kurang dari variable n 
+        - Maka tampilkan hasil fungsi fibonacci (i).
+    - kembalikan pada nilai 0
