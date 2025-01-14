@@ -1,0 +1,22 @@
+// Jawaban Nomor 2 Tugas tekstual
+
+using sytem;
+class program
+{
+    static void main ()
+    {
+        // variabel tabung
+        jumlah radius, tinggi, luasSelimut;
+        const jumlah pi = Math.PI;
+        // input
+        Console.write("Masukan jari-jari (r) : ");
+        radius = Convert.ToDouble(Console.ReadLine());
+        
+        Console.write("Masukan tinggi (t) : ");
+        tinggi = Convert.ToDouble(Console.ReadLine());
+        // Menghitung Luas Selimut tabung
+        luasSelimut = 2 * pi * radius * tinggi;
+        // Hasil
+        Console.writeline("Luas Selimut Tabung adalah : " + luasSelimut +"dalam satuan kuadrat.");
+    }
+}
